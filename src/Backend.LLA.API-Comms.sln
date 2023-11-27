@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{11CF5365-BF25-45C7-9A5D-9F052A23B112}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMq", "RabbitMq", "{13C9DC9D-1F57-4563-B4FD-A92B43FBF91A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublisherConsumer", "PublisherConsumer", "{F46623E1-BD4C-42B8-8363-902DD86F2F37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBroker", "EventBroker", "{4ABE2E59-E82E-4252-A4B2-5F21CBBA13A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Publisher", "RabbitMq.Publisher\RabbitMq.Publisher.csproj", "{814E67B7-7F90-4950-80BF-0AB6AA5D7DB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Subscriber", "RabbitMq.Subscriber\RabbitMq.Subscriber.csproj", "{B2E7C4E5-D1C9-4DF2-81C6-AE0DC62173E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13C9DC9D-1F57-4563-B4FD-A92B43FBF91A} = {11CF5365-BF25-45C7-9A5D-9F052A23B112}
+		{F46623E1-BD4C-42B8-8363-902DD86F2F37} = {13C9DC9D-1F57-4563-B4FD-A92B43FBF91A}
+		{4ABE2E59-E82E-4252-A4B2-5F21CBBA13A7} = {13C9DC9D-1F57-4563-B4FD-A92B43FBF91A}
+		{814E67B7-7F90-4950-80BF-0AB6AA5D7DB4} = {F46623E1-BD4C-42B8-8363-902DD86F2F37}
+		{B2E7C4E5-D1C9-4DF2-81C6-AE0DC62173E0} = {F46623E1-BD4C-42B8-8363-902DD86F2F37}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{814E67B7-7F90-4950-80BF-0AB6AA5D7DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814E67B7-7F90-4950-80BF-0AB6AA5D7DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814E67B7-7F90-4950-80BF-0AB6AA5D7DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814E67B7-7F90-4950-80BF-0AB6AA5D7DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E7C4E5-D1C9-4DF2-81C6-AE0DC62173E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E7C4E5-D1C9-4DF2-81C6-AE0DC62173E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E7C4E5-D1C9-4DF2-81C6-AE0DC62173E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E7C4E5-D1C9-4DF2-81C6-AE0DC62173E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
